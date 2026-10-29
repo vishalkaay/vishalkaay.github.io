@@ -31,101 +31,51 @@ The site is intentionally personal rather than a conventional résumé. It chang
 
 ## What's here
 
-### Work
-
-A selection of projects and technical work across:
-
-* Hardware and FPGA design
-* GPU computing and numerical methods
-* Machine learning
-* Security and digital forensics
-
-### Operating Range
-
-The tools, technologies, and areas I work with.
-
-### After Hours
-
-Music and old Bollywood covers.
-
-### Off the Clock
-
-Photos and places from travels and time away from the screen.
-
-### Résumé
-
-A downloadable copy of my résumé.
+| Section | What it shows |
+| --- | --- |
+| **Hero** | Who I am, what I'm doing now, and a live oscilloscope that morphs from a sine wave to a voice as you move the cursor |
+| **Selected work** | Nine interactive project cards (filterable), each opening a full case study |
+| **Archive** | Coursework, experiments and smaller builds |
+| **Open source** | Upstream pull requests (`pr-agent`, `sqlite-utils`) |
+| **About & education** | Background, toolkit, IIT Kanpur and school, coursework |
+| **Experience** | C3iHub internship, MediQ mentoring, Udghosh, Antaragni, NCC |
+| **Melody Diaries** | The nine most-played vocal covers |
+| **Off the clock** | A draggable photo reel with a lightbox |
+| **Contact** | Email (one-click copy), socials, résumé |
 
 ---
 
 ## Selected Projects
 
-### Pipelined AES-128 Hardware Core
+* **IoT Security Auditing Framework** — testbed + toolkit for Wi-Fi recon, UART/SPI, firmware extraction (C3iHub internship)
+* **Pipelined AES-128 Core** — 11-stage Verilog pipeline on a PYNQ-Z2, NIST-verified
+* **2D Poisson Solver on GPU** — spectral FFT solver, 28.9 s → 0.36 ms (CuPy, NVIDIA Warp)
+* **Gene Expression with Dual Attention** — hierarchical BiLSTM, 0.788 AUC with 11× fewer parameters
+* **GIFSleuth** — zero-dependency GIF forensics engine, 7 detectors, 143 tests
+* **histwise** — Go CLI that turns your shell history into alias suggestions
+* **Fusion Power with PINNs** — physics-informed loss on 10,000+ runs
+* **Mesoscale simulators** — Langevin, FENE and DPD from scratch in NumPy
+* **DSA Dojo** — offline DSA trainer with an in-browser grader and spaced repetition
 
-An 11-stage Verilog implementation of AES-128 on a PYNQ-Z2 FPGA, verified using NIST test vectors.
-
-**Verilog · FPGA · Digital Design · Cryptography**
-
----
-
-### Gene Expression with Dual Attention
-
-A hierarchical BiLSTM model working across 19,799 genes, using attention mechanisms to explore relationships in gene-expression data.
-
-**Deep Learning · BiLSTM · Attention · Bioinformatics**
-
----
-
-### GIFSleuth
-
-A zero-dependency GIF forensics and steganography scanner with seven detection methods and 143 tests.
-
-**Python · Security · Digital Forensics**
-
----
-
-### 2D Poisson Solver
-
-A spectral FFT-based Poisson solver accelerated on GPU.
-
-Runtime reduced from **28.9 s to 0.36 ms**.
-
-**CUDA · GPU Computing · FFT · Numerical Methods**
-
-More projects are available in my [GitHub repositories](https://github.com/vishalkaay).
+More on [GitHub](https://github.com/vishalkaay).
 
 ---
 
 ## Built With
 
-* **HTML5** — semantic structure
-* **CSS3** — custom properties, fluid typography, and CSS Grid
-* **Vanilla JavaScript** — interactions and animations
-* **Canvas API** — generative signal field
-* **Google Fonts** — Syne, Manrope, and DM Mono
+* **HTML, CSS and vanilla JavaScript** — no framework, no build step, no runtime dependencies
+* **Canvas** — the hero oscilloscope, a live Poisson potential field and a Brownian-motion simulation
+* **Google Fonts** — Inter Tight, Instrument Serif and JetBrains Mono
 * **GitHub Pages** — hosting
 
-The site has no framework or runtime dependencies.
+## Features
 
----
-
-## Design
-
-The visual direction combines editorial typography with a dark interface and a high-contrast accent colour.
-
-The hero includes a generative canvas field, while the rest of the site focuses on typography, spacing, and restrained interaction.
-
----
-
-## Accessibility
-
-* Respects `prefers-reduced-motion`
-* Keyboard navigable
-* Skip link for navigation
-* Visible focus states
-* Semantic HTML
-* Responsive layout
-* WebP images with JPEG fallbacks
+* <kbd>⌘</kbd>/<kbd>Ctrl</kbd> + <kbd>K</kbd> (or <kbd>/</kbd>) command palette for jumping to sections, projects and links
+* Light and dark themes: follows the system setting, with a manual toggle that is remembered
+* Case-study dialogs, project filters, a draggable photo reel and a lightbox with arrow-key navigation
+* Respects `prefers-reduced-motion`; animations pause when off-screen
+* Semantic HTML, a skip link, visible focus states and keyboard support throughout
+* Open Graph and Twitter cards, JSON-LD `Person` schema, and a custom 404 page
 
 ---
 
