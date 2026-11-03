@@ -427,6 +427,7 @@ kbd { font: 500 .72rem var(--mono); padding: .1rem .38rem; border: 1px solid var
 .t-plays { display: inline-flex; align-items: center; gap: .5rem; font: 500 .8rem var(--mono); color: var(--m-ink); font-variant-numeric: tabular-nums; }
 .t-plays i { width: 7px; height: 7px; border-radius: 50%; background: #ff6a3d; }
 .music-foot { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-top: 2.2rem; font: 500 .74rem var(--mono); color: var(--m-muted); }
+.music-links { display: flex; flex-wrap: wrap; gap: .6rem; }
 .music :focus-visible { outline-color: #ff6a3d; }
 
 /* ---------- Frames ---------- */

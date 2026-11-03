@@ -474,7 +474,7 @@
     { g: 'Links', label: 'GitHub', hint: '@vishalkaay', ic: 'GH', run: ext('https://github.com/vishalkaay') },
     { g: 'Links', label: 'LinkedIn', hint: 'Vishal Raj', ic: 'in', run: ext('https://www.linkedin.com/in/vishal-raj-2a074823b/') },
     { g: 'Links', label: 'YouTube', hint: '@vishalr23', ic: '▶', run: ext('https://www.youtube.com/@vishalr23') },
-    { g: 'Links', label: 'Instagram', hint: '@highonnotess', ic: 'IG', run: ext('https://www.instagram.com/highonnotess/') },
+    { g: 'Links', label: 'Instagram', hint: '@highonnotess', ic: 'IG', run: ext('https://www.instagram.com/highonnotess/reels/') },
     { g: 'Links', label: 'X', hint: '@vishalkaaay', ic: 'X', run: ext('https://x.com/vishalkaaay') },
   ];
   let filtered = commands, sel = 0;
